@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ambiente-disciplina-2"
+version = "0.1.0"
+description = "Ambiente de programação para a disciplina Linguagem de programação para ciência de dados (python com Spark) do curso de pós graduação Ciência de dados e inteligência Artificial"
+authors = ["GuilhermeKulkamp <guilhermekulkamp@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.1"
+pandas = "^2.2.3"
+scipy = "^1.14.1"
+
+
+[tool.poetry.group.dev.dependencies]
+spyder = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
